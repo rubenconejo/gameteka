@@ -13,23 +13,13 @@ export class NavbarComponent {
     this.items = [
       {
         label: 'Juegos',
-        items: [
-          {
-            label: 'Añadir',
-            icon: 'pi pi-fw pi-plus',
-          },
-          {
-            label: 'Borrar',
-            icon: 'pi pi-fw pi-minus',
-          },
-        ],
       },
       {
         label: 'Plataformas'
       },
       {
         label: 'Desconectar',
-        icon: 'pi pi-fw pi-power-off',
+        icon: 'pi pi-fw pi-power-off'
       },
     ];
   }
